@@ -1,0 +1,10 @@
+.button-container {
+	display: flex;
+	flex-direction: row;
+}
+button {
+	color: wheat;
+	background-color: cadetblue;
+	width: 80px;
+	margin: 20px;
+}
