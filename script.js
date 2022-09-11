@@ -11,3 +11,5 @@ document.querySelector(".button-container").addEventListener("click", function (
 		parrafo.innerText = `El contenido del botón (or is it?) es: ${event.target.innerText}`;
 	}
 });
+//Modifying multiple elemnts at once
+const elementsToChange = document.querySelectorAll(".js-target");
